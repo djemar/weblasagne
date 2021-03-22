@@ -1,2 +1,2 @@
 # Weblasagne
-Web Applications 2021 labs.
+Web Applications 2021 labs @ Politecnico di Torino.
