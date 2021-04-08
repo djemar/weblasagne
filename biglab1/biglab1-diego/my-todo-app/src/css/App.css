@@ -37,3 +37,48 @@
   }
 }
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.btn-circle {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  border-radius: 16px;
+  border-style: none;
+}
+
+/*      Content     */
+
+.container-fluid {
+  height: calc(100% - 58px);
+}
+
+.row {
+  height: 100%;
+}
+
+.dropdown-divider {
+  margin: 0;
+}
+
+.btn-fab {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  background-color: #1565c0;
+  color: white;
+}
+
+.btn-fab:hover {
+  color: white;
+  background-color: #358aeb;
+  box-shadow: 0px 0px 10px 0px rgba(14, 64, 122, 1);
+}
