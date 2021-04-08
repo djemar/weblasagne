@@ -1,0 +1,20 @@
+/*      Sidebar     */
+
+.sidebar-sticky {
+  padding: 15px 0;
+}
+
+.active {
+  background-color: #1565c0 !important;
+  color: white;
+}
+
+.filter-item {
+  padding: 12px;
+  background-color: transparent;
+}
+
+.filter-item:not(.active):hover {
+  background-color: #e3f2fd !important;
+  /*cursor: pointer;*/
+}
