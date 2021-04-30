@@ -43,12 +43,12 @@ function MyVerticallyCenteredModal(props) {
         <Form>
           <Form.Row>
             <Form.Group as={Col} controlId='description'>
-              <Form.Label>Description *</Form.Label>
+              <Form.Label className='form-label'>Description *</Form.Label>
               <Form.Control required type='text' onChange={(event) => setDescription(event.target.value)} />
             </Form.Group>
 
             <Form.Group as={Col} controlId='selectedDate'>
-              <Form.Label>Date</Form.Label>
+              <Form.Label className='form-label'>Date</Form.Label>
               <Form.Control type='date' min={dayjs().format("YYYY-MM-DD")} onChange={handleDateChange} />
             </Form.Group>
           </Form.Row>
