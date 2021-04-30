@@ -1,0 +1,25 @@
+.tasks-div {
+  padding: 0 16px;
+}
+.task-item {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-important {
+  color: red;
+}
+
+.task-data {
+  margin-bottom: 0;
+  width: 25%;
+}
+
+.task-data:not(:first-child) {
+  text-align: end;
+}
+
+.btn-group {
+  background-color: white;
+}
