@@ -3,23 +3,3 @@
 .tasks-div {
   padding: 0 16px;
 }
-.task-item {
-  padding: 12px;
-  display: flex;
-  justify-content: space-between;
-}
-
-#filter-title {
-  padding: 16px 0;
-}
-
-.task-important {
-  color: red;
-}
-
-.task-data {
-  width: 33.3%;
-}
-.task-data:not(:first-child) {
-  text-align: end;
-}
